@@ -1,0 +1,163 @@
+.outer-container{
+    width: 100%;
+   
+    /* background-color: red; */
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+.header-conatainer h1{
+    margin-left:10%;
+    display: inline-block;
+    position: absolute;
+}
+.header-conatainer p{
+     margin-right: 5%;
+    margin-left: 80%; 
+    display: inline-block;
+    
+}
+ .pinky-img{
+     margin-left: 20px;
+    margin-top: 30px;
+}
+.nav-container{
+    margin-left: 9%;
+} 
+.nav-container p{
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: green;
+    letter-spacing: 1px;
+}
+.yoga{
+    float: left;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+.top-container{
+    margin-left:10%;
+    position: relative;
+}
+
+.top-row h2{    
+    width: 20%;
+    font-size: 20px;
+    display: inline-block;
+    float: right;
+    margin-right:28px;
+}
+.middle-container{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.food{
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px ;
+    box-shadow: 5px;
+    border: solid rgb(207, 205, 205) 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.food img{
+    margin-left: 30px;
+}
+.food h2{
+    margin-bottom: 0;
+    text-align: center;
+}
+.food p{
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.workout{
+    display: inline-block;
+    padding: 20px 30px ;
+    box-shadow: 5px;
+    border: solid rgb(207, 205, 205) 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.workout img{
+    margin-left: 30px;
+}
+.workout h2{
+    margin-bottom: 0;
+    text-align: center;
+}
+.workout p{
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.peace{
+    display: inline-block;
+    padding: 20px 30px ;
+    box-shadow: 5px;
+    border: solid rgb(207, 205, 205) 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.peace img{
+    margin-left: 30px;
+}
+.peace h2{
+    margin-bottom: 0;
+    text-align: center;
+}
+.peace p{
+    margin: 0 auto;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom-container{
+    display: inline-block;
+    margin-left: 20%;
+}
+ 
+.card{
+    padding: 10px 100px 10px 0;
+}
+.card label{
+   margin: 0 0 10px 5px;
+ 
+}
+.progress{
+    position: relative;
+    height: 12px;
+    width:160px;
+    border-radius: 10px;
+    background-color: rgb(212, 208, 208);
+
+} 
+.inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    border-radius: 10px;
+    background-color: rgb(79, 238, 79);
+}
+.progress::before{
+    content: attr(data-text);
+    position: absolute;
+    right: 0;
+    top: -20px;
+    font-weight: 600;
+    color: rgb(67, 67, 211);
+}
